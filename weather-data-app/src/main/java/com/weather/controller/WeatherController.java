@@ -1,0 +1,58 @@
+package com.weather.controller;
+
+import com.weather.entity.Weather;
+import com.weather.service.CsvService;
+import com.weather.service.WeatherService;
+import lombok.RequiredArgsConstructor;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
+
+import java.time.LocalDate;
+import java.util.List;
+import java.util.Map;
+
+@RestController
+@RequestMapping("/api/weather")
+@RequiredArgsConstructor
+public class WeatherController {
+
+    private final WeatherService weatherService;
+    private final CsvService csvService;
+
+   
+    @PostMapping("/upload")
+    public String uploadCsv(@RequestParam("file") MultipartFile file) throws Exception {
+
+        csvService.loadCsv(file);
+        return "CSV uploaded and stored successfully!";
+    }
+    
+    @GetMapping("/date")
+    public List<Weather> getByDate(
+            @RequestParam String date,
+            @RequestParam(defaultValue = "temperature") String sortBy) {
+
+        return weatherService.getWeatherByDate(
+                LocalDate.parse(date),
+                sortBy
+        );
+    }
+
+   
+    @GetMapping("/month")
+    public List<Weather> getByMonth(
+            @RequestParam int year,
+            @RequestParam int month,
+            @RequestParam(defaultValue = "temperature") String sortBy) {
+
+        return weatherService.getWeatherByMonth(year, month, sortBy);
+    }
+    
+    @GetMapping("/stats")
+    public Map<String, Double> getStats(
+            @RequestParam int year,
+            @RequestParam int month) {
+
+        return weatherService.getMonthlyTemperatureStats(year, month);
+    }
+}

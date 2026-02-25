@@ -1,0 +1,145 @@
+2026-02-25 10:09:59,231 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+2026-02-25 10:12:47,070 [Worker-0: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.weather:weather-data-app:0.0.1-SNAPSHOT @ D:\Full_Stack_Project\ShopKart_Backend\Interview_Assessment\weather-data-app\pom.xml.
+2026-02-25 10:12:49,574 [Worker-0: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /weather-data-app/src/main/java
+2026-02-25 10:12:49,577 [Worker-0: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /weather-data-app/src/main/resources
+2026-02-25 10:12:49,585 [Worker-0: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /weather-data-app/src/main/resources
+2026-02-25 10:12:49,592 [Worker-0: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /weather-data-app/src/test/java
+2026-02-25 10:12:49,594 [Worker-0: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /weather-data-app/src/test/resources
+2026-02-25 10:12:51,385 [Worker-0: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 8 sec
+2026-02-25 10:12:51,396 [Worker-0: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2026-02-25 10:12:52,158 [Worker-0: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.weather:weather-data-app:0.0.1-SNAPSHOT @ D:\Full_Stack_Project\ShopKart_Backend\Interview_Assessment\weather-data-app\pom.xml.
+2026-02-25 10:12:53,024 [Worker-0: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /weather-data-app/src/main/java
+2026-02-25 10:12:53,026 [Worker-0: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /weather-data-app/src/main/resources
+2026-02-25 10:12:53,027 [Worker-0: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /weather-data-app/src/main/resources
+2026-02-25 10:12:53,028 [Worker-0: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /weather-data-app/src/test/java
+2026-02-25 10:12:53,030 [Worker-0: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /weather-data-app/src/test/resources
+2026-02-25 10:12:53,516 [Worker-0: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 1.00 sec, update config takes 0.00 sec 
+2026-02-25 10:12:55,994 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-25 10:12:56,046 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-25 10:12:56,056 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Full_Stack_Project\ShopKart_Backend\Interview_Assessment\weather-data-app\src\test\resources
+2026-02-25 10:14:22,359 [Worker-0: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.weather:weather-data-app:0.0.1-SNAPSHOT @ D:\Full_Stack_Project\ShopKart_Backend\Interview_Assessment\weather-data-app\pom.xml.
+2026-02-25 10:14:23,694 [Worker-0: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/opencsv/opencsv/5.9/opencsv-5.9.pom
+2026-02-25 10:14:23,765 [Worker-0: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/opencsv/opencsv/5.9/opencsv-5.9.pom
+2026-02-25 10:14:23,865 [Worker-0: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-text/1.11.0/commons-text-1.11.0.pom
+2026-02-25 10:14:23,885 [Worker-0: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-text/1.11.0/commons-text-1.11.0.pom
+2026-02-25 10:14:24,069 [Worker-0: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-devtools/3.2.5/spring-boot-devtools-3.2.5.pom
+2026-02-25 10:14:24,081 [Worker-0: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-devtools/3.2.5/spring-boot-devtools-3.2.5.pom
+2026-02-25 10:14:24,139 [Worker-0: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-validation/3.2.5/spring-boot-starter-validation-3.2.5.pom
+2026-02-25 10:14:24,150 [Worker-0: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-validation/3.2.5/spring-boot-starter-validation-3.2.5.pom
+2026-02-25 10:14:24,920 [Worker-0: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/opencsv/opencsv/5.9/opencsv-5.9.jar
+2026-02-25 10:14:24,997 [Worker-0: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/opencsv/opencsv/5.9/opencsv-5.9.jar
+2026-02-25 10:14:25,113 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-text/1.11.0/commons-text-1.11.0.jar
+2026-02-25 10:14:25,250 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-devtools/3.2.5/spring-boot-devtools-3.2.5.jar
+2026-02-25 10:14:25,254 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-text/1.11.0/commons-text-1.11.0.jar
+2026-02-25 10:14:25,323 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-validation/3.2.5/spring-boot-starter-validation-3.2.5.jar
+2026-02-25 10:14:25,334 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-validation/3.2.5/spring-boot-starter-validation-3.2.5.jar
+2026-02-25 10:14:25,390 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-devtools/3.2.5/spring-boot-devtools-3.2.5.jar
+2026-02-25 10:14:26,917 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-25 10:14:26,919 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-25 10:14:26,930 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Full_Stack_Project\ShopKart_Backend\Interview_Assessment\weather-data-app\src\test\resources
+2026-02-25 10:14:27,332 [Worker-12: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/opencsv/opencsv/5.9/opencsv-5.9-sources.jar
+2026-02-25 10:14:27,417 [Worker-12: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/opencsv/opencsv/5.9/opencsv-5.9-sources.jar
+2026-02-25 10:14:27,427 [Worker-12: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.opencsv:opencsv:5.9
+2026-02-25 10:14:27,578 [Worker-12: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-text/1.11.0/commons-text-1.11.0-sources.jar
+2026-02-25 10:14:27,693 [Worker-4: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2026-02-25 10:14:27,972 [Worker-12: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-text/1.11.0/commons-text-1.11.0-sources.jar
+2026-02-25 10:14:27,984 [Worker-12: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.commons:commons-text:1.11.0
+2026-02-25 10:14:29,654 [Worker-4: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.weather:weather-data-app:0.0.1-SNAPSHOT @ D:\Full_Stack_Project\ShopKart_Backend\Interview_Assessment\weather-data-app\pom.xml.
+2026-02-25 10:14:30,460 [Worker-12: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.18.32/lombok-1.18.32-sources.jar
+2026-02-25 10:14:31,794 [Worker-12: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.18.32/lombok-1.18.32-sources.jar
+2026-02-25 10:14:31,818 [Worker-12: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.projectlombok:lombok:1.18.32
+2026-02-25 10:14:31,958 [Worker-12: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-devtools/3.2.5/spring-boot-devtools-3.2.5-sources.jar
+2026-02-25 10:14:32,025 [Worker-12: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-devtools/3.2.5/spring-boot-devtools-3.2.5-sources.jar
+2026-02-25 10:14:32,036 [Worker-12: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-devtools:3.2.5
+2026-02-25 10:14:32,222 [Worker-12: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-validation/3.2.5/spring-boot-starter-validation-3.2.5-sources.jar
+2026-02-25 10:14:32,232 [Worker-12: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-validation/3.2.5/spring-boot-starter-validation-3.2.5-sources.jar
+2026-02-25 10:14:32,245 [Worker-12: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-validation:3.2.5
+2026-02-25 10:14:33,041 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /weather-data-app/src/main/java
+2026-02-25 10:14:33,043 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /weather-data-app/src/main/resources
+2026-02-25 10:14:33,044 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /weather-data-app/src/main/resources
+2026-02-25 10:14:33,045 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /weather-data-app/src/test/java
+2026-02-25 10:14:33,047 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /weather-data-app/src/test/resources
+2026-02-25 10:14:34,081 [Worker-4: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 5.00 sec, update config takes 0.00 sec 
+2026-02-25 10:14:35,712 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-25 10:14:35,741 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-25 10:14:35,759 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Full_Stack_Project\ShopKart_Backend\Interview_Assessment\weather-data-app\src\test\resources
+2026-02-25 10:20:44,098 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-25 10:20:44,106 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-25 10:20:44,112 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Full_Stack_Project\ShopKart_Backend\Interview_Assessment\weather-data-app\src\test\resources
+2026-02-25 10:27:11,054 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-25 10:27:11,060 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-25 10:27:11,067 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Full_Stack_Project\ShopKart_Backend\Interview_Assessment\weather-data-app\src\test\resources
+2026-02-25 10:29:54,189 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-25 10:29:54,201 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-25 10:29:54,210 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Full_Stack_Project\ShopKart_Backend\Interview_Assessment\weather-data-app\src\test\resources
+2026-02-25 10:31:11,008 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-25 10:31:11,014 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-25 10:31:11,019 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Full_Stack_Project\ShopKart_Backend\Interview_Assessment\weather-data-app\src\test\resources
+2026-02-25 10:33:14,117 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-25 10:33:14,122 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-25 10:33:14,126 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Full_Stack_Project\ShopKart_Backend\Interview_Assessment\weather-data-app\src\test\resources
+2026-02-25 10:34:03,811 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-25 10:34:03,815 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-25 10:34:03,819 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Full_Stack_Project\ShopKart_Backend\Interview_Assessment\weather-data-app\src\test\resources
+2026-02-25 10:34:31,566 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-25 10:34:31,575 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-25 10:34:31,581 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Full_Stack_Project\ShopKart_Backend\Interview_Assessment\weather-data-app\src\test\resources
+2026-02-25 10:36:15,136 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-25 10:36:15,142 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-25 10:36:15,146 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Full_Stack_Project\ShopKart_Backend\Interview_Assessment\weather-data-app\src\test\resources
+2026-02-25 10:39:43,916 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-25 10:39:43,921 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-25 10:39:43,925 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Full_Stack_Project\ShopKart_Backend\Interview_Assessment\weather-data-app\src\test\resources
+2026-02-25 10:40:13,078 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-25 10:40:13,085 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-25 10:40:13,089 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Full_Stack_Project\ShopKart_Backend\Interview_Assessment\weather-data-app\src\test\resources
+2026-02-25 10:40:25,783 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-25 10:40:25,792 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-25 10:40:25,797 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Full_Stack_Project\ShopKart_Backend\Interview_Assessment\weather-data-app\src\test\resources
+2026-02-25 10:40:39,755 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-25 10:40:39,776 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-25 10:40:39,782 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Full_Stack_Project\ShopKart_Backend\Interview_Assessment\weather-data-app\src\test\resources
+2026-02-25 10:40:54,080 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-25 10:40:54,085 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-25 10:40:54,088 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Full_Stack_Project\ShopKart_Backend\Interview_Assessment\weather-data-app\src\test\resources
+2026-02-25 10:41:06,777 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-25 10:41:06,781 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-25 10:41:06,786 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Full_Stack_Project\ShopKart_Backend\Interview_Assessment\weather-data-app\src\test\resources
+2026-02-25 10:46:59,743 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-25 10:46:59,747 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-25 10:46:59,751 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Full_Stack_Project\ShopKart_Backend\Interview_Assessment\weather-data-app\src\test\resources
+2026-02-25 10:49:31,195 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-25 10:49:31,204 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-25 10:49:31,209 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Full_Stack_Project\ShopKart_Backend\Interview_Assessment\weather-data-app\src\test\resources
+2026-02-25 10:50:45,489 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-25 10:50:45,505 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-25 10:50:45,510 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Full_Stack_Project\ShopKart_Backend\Interview_Assessment\weather-data-app\src\test\resources
+2026-02-25 10:51:01,187 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-25 10:51:01,200 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-25 10:51:01,206 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Full_Stack_Project\ShopKart_Backend\Interview_Assessment\weather-data-app\src\test\resources
+2026-02-25 11:01:09,216 [Worker-25: Launching weather-data-app - WeatherDataAppApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-25 11:01:09,229 [Worker-25: Launching weather-data-app - WeatherDataAppApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-25 11:01:09,235 [Worker-25: Launching weather-data-app - WeatherDataAppApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Full_Stack_Project\ShopKart_Backend\Interview_Assessment\weather-data-app\src\test\resources
+2026-02-25 11:11:15,363 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-25 11:11:15,374 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-25 11:11:15,379 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Full_Stack_Project\ShopKart_Backend\Interview_Assessment\weather-data-app\src\test\resources
+2026-02-25 11:19:39,010 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-25 11:19:39,014 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-25 11:19:39,017 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Full_Stack_Project\ShopKart_Backend\Interview_Assessment\weather-data-app\src\test\resources
+2026-02-25 11:41:57,092 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2026-02-25 11:42:02,160 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-25 11:42:02,291 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-25 11:42:02,301 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Full_Stack_Project\ShopKart_Backend\Interview_Assessment\weather-data-app\src\test\resources
+2026-02-25 11:45:38,538 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-12.0.21; built: 2025-05-09T00:32:00.688Z; git: 1c4719601e31b05b7d68910d2edd980259f1f53c; jvm 21.0.7+6-LTS
+2026-02-25 11:45:38,635 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started oeje8n.ContextHandler$CoreContextHandler@1baf455a{/help,/help,b=null,a=AVAILABLE,h=oeje8n.ContextHandler$CoreContextHandler$CoreToNestedHandler@64ef719b{STARTED}}
+2026-02-25 11:45:38,636 [Start Help Server] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2026-02-25 11:45:38,683 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@70c763f3{HTTP/1.1, (http/1.1)}{127.0.0.1:63435}
+2026-02-25 11:45:38,722 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@7ac90e80{STARTING}[12.0.21,sto=0] @259510ms
+2026-02-25 11:47:36,526 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-25 11:47:36,534 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-25 11:47:36,542 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Full_Stack_Project\ShopKart_Backend\Interview_Assessment\weather-data-app\src\test\resources
+2026-02-25 11:47:40,400 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-25 11:47:40,405 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-25 11:47:40,412 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Full_Stack_Project\ShopKart_Backend\Interview_Assessment\weather-data-app\src\test\resources
+2026-02-25 11:48:57,456 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@7ac90e80{STOPPING}[12.0.21,sto=0]
+2026-02-25 11:48:57,461 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@70c763f3{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
