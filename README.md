@@ -1,227 +1,136 @@
-📌 Project Overview
+**🌦 Weather Data Processing & Analytics API**
+**📌 Project Overview**
 
-This project processes and analyzes nearly two decades (1996–2016) of weather forecast data for Delhi.
+This project processes nearly 20 years of Delhi weather forecast data from a CSV file and provides REST APIs to retrieve and analyze weather information.
 
-The dataset includes:
+**The dataset includes parameters such as:**
 
 Temperature
-
 Humidity
-
 Pressure
-
 Heat Index
+Weather Condition
 
-Weather Conditions
-
-Date & Time
-
-The application:
+**The application:**
 
 Transforms raw CSV data into structured format
+Stores the processed data in a MySQL database
+Provides APIs to retrieve and analyze weather details
 
-Stores it in a MySQL database
-
-Provides REST APIs to retrieve and analyze weather information
-
-Built using:
+**The system is built using:**
 
 Java 17
-
 Spring Boot
-
-Spring Data JPA
-
 MySQL
-
+JPA / Hibernate
 OpenCSV
 
-Maven
+**🏗 Architecture**
 
-🏗 Architecture
+The project follows a modular layered architecture:
 
-The project follows a layered, modular architecture:
+controller  →  service  →  repository  →  database
+**Packages:**
+controller – REST API endpoints
+service – Business logic
+repository – Database access layer
+entity – JPA entities
 
-com.weather
-│
-├── controller        → REST Controllers
-├── service           → Business logic
-├── repository        → Data access layer
-├── entity            → Database entities
-└── config (optional) → Configuration classes
-
-This ensures:
-
-Clean separation of concerns
-
-Maintainability
-
-Scalability
-
-Production-ready structure
-
-⚙️ Technologies Used
-Technology	Purpose
-Spring Boot	Backend framework
-Spring Data JPA	ORM layer
-MySQL	Database
-OpenCSV	CSV parsing
-Lombok	Boilerplate reduction
-Maven	Dependency management
-🗄 Database Setup
-1️⃣ Install MySQL
-
-Ensure MySQL is installed and running.
-
-2️⃣ Create Database
+**⚙️ Setup & Run Instructions**
+1️⃣ Clone the Repository
+git clone https://github.com/Madhan-P1303/weather-api.git
+cd weather-api
+2️⃣ Create MySQL Database
 CREATE DATABASE weather_db;
 3️⃣ Update application.properties
 spring.datasource.url=jdbc:mysql://localhost:3306/weather_db
-spring.datasource.username=root
+spring.datasource.username=your_username
 spring.datasource.password=your_password
 
-spring.jpa.hibernate.ddl-auto=update
+spring.jpa.hibernate.ddl-auto=none
 spring.jpa.show-sql=true
-spring.jpa.properties.hibernate.format_sql=true
 spring.jpa.database-platform=org.hibernate.dialect.MySQL8Dialect
+4️⃣ Run the Application
 
-server.port=8080
-🚀 How To Run The Project
-Step 1: Clone Repository
-git clone <repository-url>
-cd weather-project
-Step 2: Build Project
-mvn clean install
-Step 3: Run Application
+Using Maven:
 mvn spring-boot:run
-
-OR run the main class from your IDE.
-
+Or run the main class from your IDE.
 Server runs at:
-
 http://localhost:8080
-📥 Upload CSV Data
-API Endpoint
+📂 **CSV Upload**
+Upload the CSV file using:
 POST /api/weather/upload
-Using Postman:
 
-Select POST
+**In Postman:**
+Select Body
+Choose form-data
+Key = file
+Type = File
+Upload the CSV file
+This will:
+Parse CSV
+Convert invalid values (-9999) to null
+Store records in MySQL
+<img width="740" height="327" alt="image" src="https://github.com/user-attachments/assets/71f2af16-5130-4e45-bc18-005257b424a5" />
 
-URL: http://localhost:8080/api/weather/upload
 
-Go to Body
-
-Select form-data
-
-Key: file
-
-Type: File
-
-Upload CSV file
-
-Send
-
-If successful:
-
-CSV uploaded and stored successfully!
-📊 Available APIs
+**🌐 API Endpoints**
 1️⃣ Get Weather by Date
+
+**Retrieve weather details for a specific date:**
+
 GET /api/weather/date?date=1996-11-01
 
-Optional sorting:
+**Returns:**
 
-GET /api/weather/date?date=1996-11-01&sortBy=temperature
-
-Returns:
-
-Weather Condition
-
+Weather condition
 Temperature
-
 Humidity
-
 Pressure
 
-2️⃣ Get Weather by Month
+
+**2️⃣ Get Weather by Month**
+
+Retrieve weather details for a specific month:
 GET /api/weather/month?year=1996&month=11
+<img width="717" height="435" alt="image" src="https://github.com/user-attachments/assets/7f2b1726-733f-40fd-92aa-f934a690e632" />
 
-Optional sorting:
 
-GET /api/weather/month?year=1996&month=11&sortBy=humidity
-3️⃣ Get Monthly Temperature Statistics
+**3️⃣ Get Monthly Temperature Statistics**
+
+Retrieve minimum, median, and maximum temperature for a given month:
 GET /api/weather/stats?year=1996&month=11
+<img width="719" height="503" alt="image" src="https://github.com/user-attachments/assets/15fc9af9-c4da-4f01-9dc4-1439a59a03d9" />
 
-Returns:
 
-{
-  "min": 19.0,
-  "median": 25.0,
-  "max": 30.0
-}
-📈 Features Implemented
 
-✔ CSV file transformation
-✔ Batch database insertion (200,000+ records tested)
-✔ Modular architecture
-✔ Date-based filtering
-✔ Month-based filtering
-✔ Sorting functionality
-✔ Monthly min / median / max temperature calculation
-✔ Null handling for missing values (-9999)
+**📊 Features Implemented**
 
- Data Handling Strategy
+CSV transformation and validation
+Batch database insertion
+Modular code structure
+Date-based filtering
+Month-based filtering
+Sorting support
+Min / Median / Max temperature calculation
+Efficient data storage (200,000+ records tested)
 
-Date format parsed using: yyyyMMdd-HH:mm
+**🛠 Technologies Used**
 
-Missing values (-9999) converted to null
+Java 17
+Spring Boot
+Spring Data JPA
+MySQL
+OpenCSV
+Maven
 
-Batch saving implemented for performance
+**📎 Notes**
 
-Clean separation between controller and service layers
+Large dataset (~200k+ records) successfully stored and tested.
+Invalid temperature values (-9999) are handled as null.
+Application follows clean architecture principles.
 
-🔎 Sample Response
-{
-  "id": 1,
-  "datetimeUtc": "1996-11-01T11:00:00",
-  "weatherCondition": "Smoke",
-  "temperature": 0.0,
-  "humidity": 27.0,
-  "pressure": 1010.0,
-  "heatIndex": null
-}
-📦 Performance
-
-Successfully processed ~200,752 records
-
-Optimized using batch insert
-
-MySQL indexing can be added for production scaling
-
-🎯 Assessment Requirements Checklist
-Requirement	Status
-CSV Transformation	✅ Completed
-Structured Storage	✅ Completed
-Modular Code	✅ Completed
-Date API	✅ Completed
-Month API	✅ Completed
-Min / Median / Max Temperature	✅ Completed
-👨‍💻 Author
+**👨‍💻 Author**
 
 Madhan
-Backend Developer
-
-🏁 Conclusion
-
-This project demonstrates:
-
-Large dataset processing
-
-REST API development
-
-Database integration
-
-Data analytics implementation
-
-Clean software architecture
-
-The application is production-ready and scalable for future enhancements.
+madhan93454@gmail.com
